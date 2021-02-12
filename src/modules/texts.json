@@ -1,0 +1,6 @@
+{
+  "gravityValue": "Gravity value: ",
+  "shapesPerSec": "Number of shapes per sec: ",
+  "shapesCount": "Number of current shapes: ",
+  "totalPixels": "Surface area occupied by shapes: "
+}

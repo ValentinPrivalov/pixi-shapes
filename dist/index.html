@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PIXI Shapes</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id='View'>
+                <header>
+                    <span id='shapes-count'>Number of current shapes: 0</span>
+                    <span id='total-pixels'>Surface area occupied by shapes: 0</span>
+                </header>
+                <canvas id='stage'></canvas>
+                <footer>
+                    <div class='button-group'>
+                        <button id='shapes-increment-btn' class='increment'>+</button>
+                        <button id='shapes-decrement-btn' class='decrement'>-</button>
+                        <div class='description'>
+                            <span id='value-shapes'>Number of shapes per sec: 0</span>
+                        </div>
+                    </div>
+                    <div class='button-group'>
+                        <button id='gravity-increment-btn' class='increment'>+</button>
+                        <button id='gravity-decrement-btn' class='decrement'>-</button>
+                        <div class='description'>
+                            <span id='value-gravity'>Gravity value: 0</span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
